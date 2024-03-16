@@ -1,3 +1,9 @@
 def upper_str(string):
-    """функция, которая делает строки заглавными буквами"""
+    """делает буквы заглавными"""
     return string.upper()
+
+
+def upper_letter(string):
+    """делает первые буквы заглавными"""
+    return string.title()
+
